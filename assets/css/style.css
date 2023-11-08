@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex !important;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.logo img{
+    height: 60px;
+}
+ul{
+    list-style: none;
+}
+.main-menue>ul{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 2rem;
+}
+.menu-item a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-item a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.menu-item-has-children{
+    position: relative;
+}
+.menu-item-has-children>ul{
+    display: none;
+}
+.menu-item-has-children:hover ul{
+    display: block;
+    background: transparent;
+    color: #fff;
+    position: absolute;
+    width: 200px;
+    background: #efefef;
+    padding: 10px;
+    margin-top: 10px;
+}
+.menu-item-has-children li{
+    padding: 10px;
+    border-bottom: 1px solid #c2c2c2;
+}
+.menu-item-has-children li:last-child{
+    border: none;
+}
+.menu-item-has-children li a{
+    color: #000;
+}
+.menu-item-has-children li a:hover{
+    color: #000;
+}
+.search{
+    color: #fff;
+}
+/* ===========Silver Swans========== */
+.silwar_swans{
+    display: grid;
+    place-items: center;
+    background-image: url(/assets/images/folower.gif);
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    height: 620px;
+    margin-top: -130px;
+}
+.silwar_swans article{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 100px;
+}
+article img{
+    height: 60px;
+}
+article h1{
+    font-size: 50px;
+}
+hr{
+    width: 100%;
+}
+
+/* =============Slider============== */
+.owl-carousel{
+    overflow: hidden;
+    color: #fff;
+}
+
+.owl-item {
+    text-align: center;
+    place-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.item{
+    width: 50%;
+}
+.item h4{
+    font-size: 50px;
+    line-height: 100px;
+}
+.item p, .Port-folio p{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.owl-controls.clickable{
+    margin-top: 50px;
+}
+
+/* ============About me========== */
+.ab-sec{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 2rem;
+    padding: 50px;
+}
+.beauty-girl, .about-me{
+    width: 50%;
+}
+.beauty-girl{
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.about-me h2{
+    font-size: 30px;
+    line-height: 25px;
+}
+.about-me p{
+    font-size: 18px;
+    line-height: 22px;
+    margin: 15px 0;
+    width: 70%;
+}
+.about-me button, .Port-folio button{
+    padding: 10px;
+    text-transform: uppercase;
+    background:#fff;
+    border: 1px solid #000;
+}
+
+ /* ==========Portfolio==========  */
+ .Port-folio{
+    display: grid;
+    place-items: center;
+    /* row-gap: 1rem; */
+    background-image: url(/assets/images/Group-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 20px;
+ }
+ .Port-folio>h2{
+    font-size: 40px;
+    line-height: 50px;
+ }
+ .Port-folio>h3{
+    font-size: 50px;
+    line-height: 80px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+ }
+ 
+ .Port-folio button{
+    padding: 10px 30px;
+    background: transparent;
+ }
