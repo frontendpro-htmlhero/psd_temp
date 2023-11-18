@@ -3,12 +3,11 @@ $(document).ready(function () {
     items: 1,
     loop: true,
     autoPlay: true,
-    // navigation: true,
+    nav: true,
     // slideSpeed: 200,
     mouseDrag: true,
     autoplayHoverPause: true,
-    animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
+    animateOut: 'slideOutDown',
     responsiveClass: true,
     responsive: {
       0: {
