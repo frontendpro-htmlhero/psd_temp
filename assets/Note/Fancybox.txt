@@ -1,0 +1,3 @@
+Fancybox:
+
+-Using for images and Videos

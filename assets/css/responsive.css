@@ -1,0 +1,127 @@
+@media only screen and (max-width:1024px) {
+
+    /* ========.silwar_swans======= */
+
+    .socil-icon{
+        top: 30%;
+        gap: 1.5rem !important;
+    }
+
+    .owl-carousel .item {
+        width: 100%;
+    }
+
+    .item h4 {
+        font-size: 50px;
+        white-space: wrap;
+    }
+
+    .pragnancy img {
+        height: auto;
+    }
+    .beauty-girl{
+        padding-right: 0;
+    }
+    .beauty-girl,
+    .about-me {
+        border: none;
+        /* text-align: center; */
+    }
+    :is(.lorem-video , .about-me , .cont-col) :is(p, img) {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:767px) {
+     /* ======Header====== */
+    .main-menue {
+        display: none;
+    }
+    header {
+        padding: 10px 35px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .main-menue {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        padding: 20px;
+        background-color: #efefef;
+    }
+
+    .main-menue>ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    ul li:last-child {
+        border: none;
+    }
+
+    li.menu-item {
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid black;
+    }
+
+    .menu-item a,
+    .search {
+        font-size: 14px;
+        color: #000;
+    }
+
+    .mobile-menu {
+        display: block !important;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .item h4 {
+        font-size: 30px;
+    }
+
+    .f-items{
+        grid-column-gap: 12px;
+    }
+    /* =======About me ====== */
+    .ab-sec{
+        padding: 50px 0;
+    }
+    .beauty-girl,
+    .about-me {
+        text-align: center;
+    }
+    :is(.item , .lorem-video, .video, .port-f, .contact) p {
+        font-size: 18px !important;
+        line-height: 25px;
+    }
+
+    :is(.lorem-video, .video, .about-me, .footer-col article) p{
+        width: 100%;
+    }
+    /* =======Portfolio======= */
+    :is(.port-f, .video) :is(h2, h3){
+        font-size: 40px !important;
+    }
+
+    /* ======Testimonial====== */
+    .Testimonials .container{
+        margin: unset;
+    }
+    
+    .testim-col img{
+        position: unset;
+        width: 120px;
+    }
+    .testim-col{
+        height: 350px;
+    }
+    .cont-col {
+        margin-top: 50px;
+    }
+}
